@@ -19,13 +19,13 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - [ ] Deployment window scheduled (if needed)
 - [ ] Backup or snapshot (if applicable)
 - [ ] Deploy to staging and run smoke tests
-- [ ] Deploy to production (automated pipeline preferred)
+- [ ] Deploy to production (automated pipeline preferred, coordinated by DevOps Engineer)
 - [ ] Run post-deploy verifications
 - [ ] Announce release to stakeholders and support
 
 ## Rollback & Incident Playbook
 - If a deployment fails or causes a critical issue:
-  - Trigger incident response and notify on-call
+  - Trigger incident response and notify on-call (DevOps Engineer leads technical response)
   - Rollback to last known-good release if necessary
   - Triage root cause and capture action items
 
